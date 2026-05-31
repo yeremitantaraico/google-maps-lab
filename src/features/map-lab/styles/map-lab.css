@@ -95,175 +95,23 @@
   background: #ffffff;
 }
 
-.search-row button,
-.presets button {
+.search-row button {
   padding: 10px 14px;
-  border: 1px solid #93c5fd;
+  border: 1px solid #1a73e8;
   border-radius: 8px;
   font: inherit;
   font-size: 0.9rem;
   cursor: pointer;
-  background: #eff6ff;
-  color: #1a73e8;
-  transition: border-color 0.2s, background 0.2s, color 0.2s;
-}
-
-.search-row button {
   background: #1a73e8;
   color: #ffffff;
-  border-color: #1a73e8;
   white-space: nowrap;
   font-weight: 500;
+  transition: background 0.2s, border-color 0.2s;
 }
 
 .search-row button:hover {
   background: #1557b0;
   border-color: #1557b0;
-}
-
-.search-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 8px;
-}
-
-.search-actions button {
-  padding: 9px 12px;
-  border: 1px solid #93c5fd;
-  border-radius: 8px;
-  font: inherit;
-  font-size: 0.85rem;
-  cursor: pointer;
-  background: #1a73e8;
-  color: #ffffff;
-  border-color: #1a73e8;
-  font-weight: 500;
-}
-
-.search-actions button:hover {
-  background: #1557b0;
-  border-color: #1557b0;
-}
-
-.search-actions button.secondary {
-  background: #eff6ff;
-  color: #1a73e8;
-  border-color: #93c5fd;
-}
-
-.search-actions button.secondary:hover {
-  background: #dbeafe;
-}
-
-.bulk-form {
-  margin-top: 14px;
-}
-
-.bulk-form label {
-  display: block;
-  margin-bottom: 6px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: #1a73e8;
-}
-
-.bulk-form textarea {
-  width: 100%;
-  min-height: 88px;
-  padding: 10px 12px;
-  border: 1px solid #93c5fd;
-  border-radius: 8px;
-  font: inherit;
-  font-size: 0.85rem;
-  color: #0f172a;
-  background: #f8fbff;
-  resize: vertical;
-  box-sizing: border-box;
-}
-
-.bulk-form textarea:focus {
-  outline: 2px solid rgba(26, 115, 232, 0.35);
-  border-color: #1a73e8;
-  background: #ffffff;
-}
-
-.marker-queue {
-  list-style: none;
-  margin: 10px 0 0;
-  padding: 0;
-  max-height: 120px;
-  overflow-y: auto;
-  border: 1px solid #dbeafe;
-  border-radius: 8px;
-}
-
-.marker-queue li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  padding: 8px 10px;
-  font-size: 0.8rem;
-  border-bottom: 1px solid #eff6ff;
-}
-
-.marker-queue li:last-child {
-  border-bottom: none;
-}
-
-.marker-queue span {
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.remove-marker {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  padding: 0;
-  border: none;
-  border-radius: 999px;
-  background: #eff6ff;
-  color: #1a73e8;
-  font-size: 1.1rem;
-  line-height: 1;
-  cursor: pointer;
-}
-
-.remove-marker:hover {
-  background: #dbeafe;
-}
-
-.marker-list {
-  margin: 6px 0 0;
-  padding-left: 18px;
-  font-size: 0.78rem;
-  color: #475569;
-}
-
-.marker-list li {
-  margin-bottom: 2px;
-}
-
-.presets {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 12px;
-}
-
-.presets button:hover {
-  background: #dbeafe;
-  border-color: #1a73e8;
-}
-
-.presets button.active {
-  background: #1a73e8;
-  border-color: #1a73e8;
-  color: #ffffff;
 }
 
 .search-error {
